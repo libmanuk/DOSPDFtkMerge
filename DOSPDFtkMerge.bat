@@ -22,6 +22,7 @@ IF %ext% == pdf (
     ren %ofn%.pdf %ofn%.tmp
     del *.pdf
     ren %ofn%.tmp %ofn%.pdf
+
     )
 
 echo.
