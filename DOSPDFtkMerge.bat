@@ -5,6 +5,11 @@ set /P ofn=Enter file name for merged PDF:
 set /P ext=Enter file extension for source files: 
 echo Using PDFtk for Windows to merge a directory of PDF files
 
+set fcount=0
+for %%x in (*.%ext%) do set /a fcount+=1
+echo found %fcount% %ext% images
+echo.
+
 for %%i in (*.%ext%) do echo %%i
 echo processing files, please wait...
 for %%i in (*.%ext%) do magick convert %%~ni.%ext% %%~ni.pdf
