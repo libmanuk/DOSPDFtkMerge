@@ -8,7 +8,7 @@ The original image files will remain in the directory after the script has finis
 
 ## How to use this batch script.
 
-1. Place a copy of the .bat file in a directory that has image files that needs to be merged into a multipage PDF.
+1. Place a copy of the .bat file in a directory that has image files that need to be merged into a multipage PDF.
 2. Move all other files out of the directory.
 3. Double click on the .bat file.
 4. Provide inputs for the questions you will be prompted to answer.
