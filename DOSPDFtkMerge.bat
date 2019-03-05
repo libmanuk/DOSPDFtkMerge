@@ -17,6 +17,10 @@ echo.
 
 pdftk *.pdf cat output %ofn%.pdf
 
+ren %ofn%.pdf %ofn%.tmp
+del *.pdf
+ren %ofn%.tmp %ofn%.pdf
+
 echo.
 echo All done!  :)
 pause
