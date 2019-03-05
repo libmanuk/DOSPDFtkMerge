@@ -4,7 +4,7 @@
 
 This DOS batch script uses both ImageMagick (https://www.imagemagick.org/) for Windows and PDFtk (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) for Windows from the DOS commandline to convert individual image files to PDFs and then merge these PDFs into one multipage PDF.
 
-The original image files will remain in the directory after the script has finished processing, unless the source files are PDF.  If the source files are PDF, they will NOT remain in the directory after the script has finishsed processing.  
+The original image files will remain in the directory after the script has finished processing, unless the source files are PDF. 
 
 ## How to use this batch script.
 
