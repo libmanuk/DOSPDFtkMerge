@@ -13,7 +13,7 @@ The original image files will remain in the directory after the script has finis
 3. Double click on the .bat file.
 4. Provide inputs for the questions you will be prompted to answer.
 
-### It is recommended that this script be run on a set of copied .TIF images, not on "sole" copies. 
+### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
 ### This script assumes that the computer being used for implementation has PDFtk for Windows installed and that it is working at the commandline.
 
