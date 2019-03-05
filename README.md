@@ -2,15 +2,16 @@
 
 ## What does this batch script do?
 
-This DOS batch script uses both PDFtk (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) for Windows from the DOS commandline to split a multipage PDF file into separate files.
+This DOS batch script uses both ImageMagick (https://www.imagemagick.org/) for Windows and PDFtk (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) for Windows from the DOS commandline to convert individual image files to PDFs and then merge these PDFs into one multipage PDF.
 
-The original PDF file will remain in the directory after the script has finished processing.  
+The original image files will NOT remain in the directory after the script has finished processing.  
 
 ## How to use this batch script.
 
-1. Place a copy of the .bat file in a directory that has a multipage PDF file that needs to be split.
+1. Place a copy of the .bat file in a directory that has image files that needs to be merged into a multipage PDF.
 2. Move all other files out of the directory.
 3. Double click on the .bat file.
+4. Provide inputs for the questions you will be prompted to answer.
 
 ### It is recommended that this script be run on a set of copied .TIF images, not on "sole" copies. 
 
