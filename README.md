@@ -6,6 +6,8 @@ This DOS batch script uses both ImageMagick (https://www.imagemagick.org/) for W
 
 The original image files will remain in the directory after the script has finished processing. 
 
+This script only works with local Windows file paths.
+
 ## How to use this batch script.
 
 1. Place a copy of the .bat file in a directory that has image files that need to be merged into a multipage PDF.
