@@ -17,6 +17,7 @@ set /P sub=Enter the subdirectory name for source files:
 echo.
 set fout=output
 set fcount=0
+set pcount=0
 rem   for %%x in (*.%ext%) do set /a fcount+=1
 for %%x in (%~dp0\%sub%\*.%ext%) do set /a fcount+=1
 echo %fcount% %ext% images were found
@@ -47,11 +48,20 @@ IF %ext% == pdf (
     echo.
     echo creating multipage PDF %ofn%.pdf . . .
     pdftk %~dp0\%sub%\*.pdf cat output %~dp0\%sub%\%ofn%.pdf
+    for %%x in (%~dp0\%sub%\*.pdf) do set /a pcount+=1
     echo making a copy of the multipage PDF %ofn%.pdf . . .
     xcopy /F "%~dp0%sub%\%ofn%.pdf" "%~dp0%fout%\%ofn%.pdf*"
     move "%~dp0%sub%" "%~dp0%sub%_done"
     )
+set /a final=%pcount%-1
+IF %fcount% EQU %final% (
+    set crate="Thumbs up!"
+) ELSE (
+    set crate="Error!"
+)
 color 0a
+echo.
+echo %crate%
 echo.
 echo All done!  
 set ENDTIME=%Time%
