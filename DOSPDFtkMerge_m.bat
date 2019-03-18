@@ -12,10 +12,8 @@ echo.
 set fout=output
 set fcount=0
 set pcount=0
-rem   for %%x in (*.%ext%) do set /a fcount+=1
 for %%x in (%~dp0\%sub%\*.%ext%) do set /a fcount+=1
 echo %fcount% %ext% images were found
-rem for %%i in (%~dp0\%sub%\*.%ext%) do echo %%i
 echo.
 set STARTTIME=%Time%
 cls
