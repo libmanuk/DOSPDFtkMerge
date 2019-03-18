@@ -34,9 +34,9 @@ basedir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile3<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile4<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile5<br/>
-|-DOSPDFtkMerge_m.bat<br/>
-|-DOSPDFtkMerge_s.bat<br/>
-|-batch_process.bat<br/>
+-DOSPDFtkMerge_m.bat<br/>
+-DOSPDFtkMerge_s.bat<br/>
+-batch_process.bat<br/>
 
 ### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
