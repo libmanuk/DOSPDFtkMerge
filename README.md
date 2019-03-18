@@ -17,7 +17,7 @@ This script only works with local Windows file paths.
 
 ## Directory structure.
 
-basedir
+basedir<br/>
 |-DOSPDFtkMerge_m.bat<br/>
 |-DOSPDFtkMerge_s.bat<br/>
 |-batch_process.bat<br/>
