@@ -83,6 +83,6 @@ ECHO Finish   : %ENDTIME%
 ECHO          ---------------
 ECHO Duration : %DURATION%
 
-ECHO %crate% - Source Files Count: %fcount% Duration : %DURATION% PDF Files Created: %final% PDF File: %~dp0%sub%\%ofn%.pdf>> %~dp0%fout%\test_m.txt
+ECHO %crate% - %date% Source Files Count: %fcount% Duration : %DURATION% PDF Files Created: %final% PDF File: %~dp0%sub%\%ofn%.pdf>> %~dp0%fout%\test_m.txt
 echo.
 rem Processing time code based on https://gist.github.com/jcefoli/57881d79aa4c7548324e
