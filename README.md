@@ -15,6 +15,29 @@ This script only works with local Windows file paths.
 3. Double click on the .bat file.
 4. Provide inputs for the questions you will be prompted to answer.
 
+## Directory structure.
+
+basedir
+|-DOSPDFtkMerge_m.bat
+|-DOSPDFtkMerge_s.bat
+|-batch_process.bat
+| `-output subdir
+|   |-log_m.txt
+|   |-merged1.pdf
+|   |-merged2.pdf
+| `-input subdir
+|   `-subdir
+|     |-sourcefile1
+|     |-sourcefile2
+|     |-sourcefile3
+|     |-sourcefile4
+|   `-secondsubdir
+|     |-sourcefile1
+|     |-sourcefile2
+|     |-sourcefile3
+|     |-sourcefile4
+|     |-sourcefile5
+
 ### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
 ### This script assumes that the computer being used for implementation has PDFtk for Windows installed and that it is working at the commandline.
