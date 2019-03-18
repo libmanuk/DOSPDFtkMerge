@@ -21,7 +21,7 @@ basedir
 |-DOSPDFtkMerge_m.bat<br/>
 |-DOSPDFtkMerge_s.bat<br/>
 |-batch_process.bat<br/>
-| \`-output subdir<br/>
+|&nbsp;\`-output subdir<br/>
 |   |-log_m.txt<br/>
 |   |-merged1.pdf<br/>
 |   |-merged2.pdf<br/>
