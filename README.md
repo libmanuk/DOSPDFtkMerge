@@ -58,7 +58,7 @@ rem  edit STOP
 
 An individual line to process a directory of source files should look like:
 
-*call DOSPDFtkMerge_m.bat merged_pdf_filename source_file_format source_file_format_dir
+call DOSPDFtkMerge_m.bat merged_pdf_filename source_file_format source_file_format_dir
 
 ### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
