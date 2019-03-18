@@ -19,9 +19,9 @@ This script only works with local Windows file paths.
 
 basedir<br/>
 &nbsp;&nbsp;\`-output subdir<br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-log_m.txt<br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-merged1.pdf<br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-merged2.pdf<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-log_m.txt<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-merged1.pdf<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-merged2.pdf<br/>
 &nbsp;&nbsp;\`-input subdir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;\`-subdir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile1<br/>
