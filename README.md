@@ -21,16 +21,16 @@ basedir
 |-DOSPDFtkMerge_m.bat<br/>
 |-DOSPDFtkMerge_s.bat<br/>
 |-batch_process.bat<br/>
-|&nbsp;&nbsp;\`-output subdir<br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;|-log_m.txt<br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;|-merged1.pdf<br/>
-|&nbsp;&nbsp;|-merged2.pdf<br/>
-| \`-input subdir<br/>
-|   \`-subdir<br/>
-|     |-sourcefile1<br/>
-|     |-sourcefile2<br/>
-|     |-sourcefile3<br/>
-|     |-sourcefile4<br/>
+&nbsp;&nbsp;\`-output subdir<br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-log_m.txt<br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-merged1.pdf<br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-merged2.pdf<br/>
+&nbsp;&nbsp;\`-input subdir<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;\`-subdir<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile4<br/>
 |   \`-secondsubdir<br/>
 |     |-sourcefile1<br/>
 |     |-sourcefile2<br/>
