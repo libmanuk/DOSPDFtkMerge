@@ -24,10 +24,10 @@ basedir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-merged2.pdf<br/>
 &nbsp;&nbsp;\`-input subdir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;\`-subdir<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile1<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile2<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile3<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-sourcefile4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile4<br/>
 |   \`-secondsubdir<br/>
 |     |-sourcefile1<br/>
 |     |-sourcefile2<br/>
