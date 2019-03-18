@@ -10,10 +10,18 @@ This script only works with local Windows file paths.
 
 ## How to use this batch script.
 
-1. Place a copy of the .bat file in a directory that has image files that need to be merged into a multipage PDF.
-2. Move all other files out of the directory.
-3. Double click on the .bat file.
-4. Provide inputs for the questions you will be prompted to answer.
+1. Set up a working directory structure as outlined below.
+2. Move directories of source files to be merged in the input subdir.
+
+If you want to merge a single set of files:
+
+1. Double click on the DOSPDFtkMerge_s.bat file
+2. Provide inputs for the questions you will be prompted to answer.
+
+If you want to batch any number of file sets:
+
+1. Use the directions below to 'Build a batch_processing.bat file'.
+2. Double click on completed batch_processing.bat file.
 
 ## Directory structure.
 
@@ -37,6 +45,9 @@ basedir<br/>
 -DOSPDFtkMerge_m.bat<br/>
 -DOSPDFtkMerge_s.bat<br/>
 -batch_process.bat<br/>
+
+## Build a batch_processing.bat file.
+
 
 ### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
