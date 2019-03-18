@@ -17,15 +17,6 @@ for %%x in (%~dp0\%sub%\*.%ext%) do set /a fcount+=1
 echo %fcount% %ext% images were found
 rem for %%i in (%~dp0\%sub%\*.%ext%) do echo %%i
 echo.
-IF %fcount% EQU 0 (
-    echo.
-    echo Please try again.
-    echo.
-    pause
-    goto start
-) ELSE (
-    echo.
-)
 set STARTTIME=%Time%
 cls
 echo Performing Automated Processing . . .
