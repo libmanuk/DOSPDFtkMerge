@@ -28,12 +28,12 @@ basedir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile2<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile3<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile4<br/>
-|   \`-secondsubdir<br/>
-|     |-sourcefile1<br/>
-|     |-sourcefile2<br/>
-|     |-sourcefile3<br/>
-|     |-sourcefile4<br/>
-|     |-sourcefile5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;\`-secondsubdir<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile5<br/>
 |-DOSPDFtkMerge_m.bat<br/>
 |-DOSPDFtkMerge_s.bat<br/>
 |-batch_process.bat<br/>
