@@ -18,25 +18,25 @@ This script only works with local Windows file paths.
 ## Directory structure.
 
 basedir
-|-DOSPDFtkMerge_m.bat
-|-DOSPDFtkMerge_s.bat
-|-batch_process.bat
-| `-output subdir
-|   |-log_m.txt
-|   |-merged1.pdf
-|   |-merged2.pdf
-| `-input subdir
-|   `-subdir
-|     |-sourcefile1
-|     |-sourcefile2
-|     |-sourcefile3
-|     |-sourcefile4
-|   `-secondsubdir
-|     |-sourcefile1
-|     |-sourcefile2
-|     |-sourcefile3
-|     |-sourcefile4
-|     |-sourcefile5
+|-DOSPDFtkMerge_m.bat<br/>
+|-DOSPDFtkMerge_s.bat<br/>
+|-batch_process.bat<br/>
+| `-output subdir<br/>
+|   |-log_m.txt<br/>
+|   |-merged1.pdf<br/>
+|   |-merged2.pdf<br/>
+| `-input subdir<br/>
+|   `-subdir<br/>
+|     |-sourcefile1<br/>
+|     |-sourcefile2<br/>
+|     |-sourcefile3<br/>
+|     |-sourcefile4<br/>
+|   `-secondsubdir<br/>
+|     |-sourcefile1<br/>
+|     |-sourcefile2<br/>
+|     |-sourcefile3<br/>
+|     |-sourcefile4<br/>
+|     |-sourcefile5<br/>
 
 ### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
