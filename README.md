@@ -10,6 +10,8 @@ This script only works with local Windows file paths.
 
 ## How to use this batch script.
 
+First, 
+
 1. Set up a working directory structure as outlined below.
 2. Move directories of source files to be merged in the input subdir.
 
