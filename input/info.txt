@@ -1,0 +1,1 @@
+This is a placeholder for the input subdirectory which is meant to hold multiple subdirectories holding sets of images to be processed.
