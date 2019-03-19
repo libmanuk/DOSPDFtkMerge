@@ -38,7 +38,7 @@ echo.
 IF %ext% == pdf (
     echo.
     echo creating multipage PDF %ofn%.pdf . . .
-    pdftk *.pdf cat output %ofn%.pdf
+    pdftk %~dp0\%finput%\%sub%\*.pdf cat output %~dp0\%finput%\%sub%\%ofn%.pdf
     ) ELSE (
     echo converting %fcount% %ext% source files to PDF . . . . . . 
     echo.
