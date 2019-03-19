@@ -60,6 +60,10 @@ An individual line to process a directory of source files should look like:
 
 call DOSPDFtkMerge_m.bat merged_pdf_filename file_ext directory_to_process
 
+Sample line with actual arguments added in:
+
+call DOSPDFtkMerge_m.bat th7d68v83h8p3 tif 0010
+
 ### It is recommended that this script be run on a set of copied images, not on "sole" copies. 
 
 ### This script assumes that the computer being used for implementation has PDFtk for Windows installed and that it is working at the commandline.
