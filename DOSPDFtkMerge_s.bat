@@ -16,12 +16,13 @@ echo.
 set /P sub=Enter the subdirectory name for source files: 
 echo.
 set fout=output
+set finput=input
 set fcount=0
 set pcount=0
 rem   for %%x in (*.%ext%) do set /a fcount+=1
-for %%x in (%~dp0\%sub%\*.%ext%) do set /a fcount+=1
+for %%x in (%~dp0\%finput%\%sub%\*.%ext%) do set /a fcount+=1
 echo %fcount% %ext% images were found
-rem for %%i in (%~dp0\%sub%\*.%ext%) do echo %%i
+rem for %%i in (%~dp0\%finput%\%sub%\*.%ext%) do echo %%i
 echo.
 IF %fcount% EQU 0 (
     echo.
@@ -44,18 +45,18 @@ IF %ext% == pdf (
     echo converting %fcount% %ext% source files to PDF . . . . . . 
     echo.
     color 7
-    for %%i in (%~dp0\%sub%\*.%ext%) do magick convert %~dp0\%sub%\%%~ni.%ext% -print %~dp0\%sub%\processing--%%~ni.%ext%\n %~dp0\%sub%\%%~ni.pdf
+    for %%i in (%~dp0\%finput%\%sub%\*.%ext%) do magick convert %~dp0\%finput%\%sub%\%%~ni.%ext% -print %~dp0\%finput%\%sub%\processing--%%~ni.%ext%\n %~dp0\%finput%\%sub%\%%~ni.pdf
     echo.
     echo creating multipage PDF %ofn%.pdf . . .
-    pdftk %~dp0\%sub%\*.pdf cat output %~dp0\%sub%\%ofn%.pdf
-    for %%x in (%~dp0\%sub%\*.pdf) do set /a pcount+=1
+    pdftk %~dp0\%finput%\%sub%\*.pdf cat output %~dp0\%finput%\%sub%\%ofn%.pdf
+    for %%x in (%~dp0\%finput%\%sub%\*.pdf) do set /a pcount+=1
     echo making a copy of the multipage PDF %ofn%.pdf . . .
-    xcopy /F "%~dp0%sub%\%ofn%.pdf" "%~dp0%fout%\%ofn%.pdf*"
-    move "%~dp0%sub%" "%~dp0%sub%_done"
+    xcopy /F "%~dp0%finput%\%sub%\%ofn%.pdf" "%~dp0%fout%\%ofn%.pdf*"
+    move "%~dp0%finput%\%sub%" "%~dp0%finput%\%sub%_done"
     )
 set /a final=%pcount%-1
 IF %fcount% EQU %final% (
-    set crate="Thumbs up!"
+    set crate="Thumbs up!  Looks like all the files processed."
 ) ELSE (
     set crate="Error!"
 )
