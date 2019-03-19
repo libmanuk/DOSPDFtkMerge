@@ -56,7 +56,7 @@ IF %ext% == pdf (
     )
 set /a final=%pcount%-1
 IF %fcount% EQU %final% (
-    set crate="Thumbs up!  Looks like all the files processed."
+    set crate="Success!  Looks like all the files processed."
 ) ELSE (
     set crate="Error!  Looks like some files were not processed."
 )
