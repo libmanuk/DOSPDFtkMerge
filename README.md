@@ -13,7 +13,7 @@ This script only works with local Windows file paths.
 First, 
 
 1. Set up a working directory structure as outlined below.
-2. Move directories of source files to be merged in the input subdir.
+2. Move directories of source files to be merged into the 'input' subdir.
 
 If you want to merge a single set of files:
 
