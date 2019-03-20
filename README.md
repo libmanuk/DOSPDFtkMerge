@@ -23,7 +23,7 @@ If you want to merge a single set of files:
 If you want to batch any number of file sets:
 
 1. Use the directions below to 'Build a batch_processing.bat file'.
-2. Double click on completed batch_processing.bat file.
+2. Double click on your completed batch_processing.bat file.
 
 ## Directory structure.
 
