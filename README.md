@@ -29,21 +29,21 @@ If you want to batch any number of file sets:
 
 basedir<br/>
 &nbsp;&nbsp;\`-output subdir<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-log_m.txt<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-merged1.pdf<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-merged2.pdf<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--log_m.txt<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--merged1.pdf<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--merged2.pdf<br/>
 &nbsp;&nbsp;\`-input subdir<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;\`-subdir<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile1<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile2<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile3<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile4<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;\`-secondsubdir<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile1<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile2<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile3<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile4<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-sourcefile5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile3<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--sourcefile5<br/>
 -DOSPDFtkMerge_m.bat<br/>
 -DOSPDFtkMerge_s.bat<br/>
 -batch_process.bat<br/>
